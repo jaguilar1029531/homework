@@ -1,0 +1,33 @@
+.dagreenbox {
+    background-color: pink;
+    height: 75px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+  
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 500px;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: #333;
+	}
+	.wrapper {
+		width: 600px;
+    }
+}
+
+.card {
+    width: 75%;
+}
+
+#sendamessage {
+    height: 200px;
+}
