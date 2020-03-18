@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- below i added this meta tag so that people can render on different web-browsers. some research says this tag is for older browsers, but maybe somebody is using those older web browser-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- below is my link to bootstrap cdn-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <title>Dat Lorem</title>
+    <!-- below is my link to my local css, however i will try to not use this much, trying to use bootstrap-->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+     <!-- this is a navbar i chose from bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- here i made some customizations to the navbar using class so that i could get a colored box like the example-->
         <a class="navbar-brand dagreenbox" href="#">About Lorem</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
           </ul>
+          <!-- here i customized the navbar so that it will set right my nav options-->
           <ul class="nav navbar-nav navbar-right">
             <li><a class="nav-link" href="file:///Users/globalintegrity/homework/homework/02-Homework/index.html" target="_blank">About<span class="sr-only">(current)  </span></a>
             </li>
@@ -31,12 +37,15 @@
       
 </head>
 <body>
+  <!-- i used a simple card style found in bootstrap, i added some padding and marging to make it line up well with the image and text-->
     <div class="card" style="padding-left: 10px; padding-right: 1-px; margin-left: 10px; margin-right: 10px;">
         <div class="card-body">
     <div class="row">
         <div class="col">
             <h2>Gimme Dat Lorem</h2>
             <hr>
+            <!-- I float-left this photo so that my text may wrap around it and look neat, like the example-->
+            <!-- here i added alt to make the page more accessible-->
           <img src="https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e.jpg" alt="guntotingrannh" class="float-left" style="width: 50%; height: 300px; padding-right: 5%;">
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla deleniti et harum delectus odit magnam itaque cupiditate voluptate consectetur iure doloribus tempora, accusamus necessitatibus sint temporibus officia sunt maiores adipisci.
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi saepe dolores quis? Reprehenderit sit, ad doloribus quisquam doloremque ea. Explicabo eaque autem ipsa eveniet et deserunt! Animi in possimus distinctio!
