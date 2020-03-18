@@ -13,6 +13,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 500px;
+    background-color: grey;
 }
 
 @media screen and (max-width: 768px) {
